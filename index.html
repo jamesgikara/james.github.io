@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAMES PORTFOLIO - Home</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('backgroundimage.jpg');
+    color: aliceblue;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+  display: inline-block;
+  margin-left: 20rem;
+}
+nav ul li a {
+    color: orangered;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    color: red; /* Apply hover effect */
+}
+
+/* Index Page Specific Styles */
+section#home {
+    background-size: cover;
+    color: #fff;
+    padding: 100px 20px;
+    text-align: center;
+    display: flex;
+}
+
+section#home h1 {
+    font-size:xx-large;
+    padding-bottom: 50px;
+    margin-left: 100px;
+
+}   
+#profile-image {
+            width: 200px; /* Set the width to make the image smaller */
+            height: auto; /* Maintain aspect ratio */
+            border-radius: 50%; /* Make the border radius 50% to create a circular frame */
+            margin-right: 20px; /* Add margin for spacing */
+        }
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.logo{
+    font-size: larger;
+    font-weight: bold;
+}
+    </style>
+</head>
+<body>
+<nav>
+    <h1 class="logo">JNG</h1>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<section id="home">
+    <img id="profile-image" src="profile.jpg" alt="James Ng'ang'a">
+    <h1>Hi, welcome<br>I am James Ng'ang'a, a first year student at United States International University pursuing Bachelor of Science in Applied Computer Technology</h1>
+</section>
+<script src="portfolio.js"></script>
+<footer>
+    <p>&copy; 2024 JAMES NG'ANG'A. All rights reserved.</p>
+</footer>
+
+
+</body>
+</html>
